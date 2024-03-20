@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            .center{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body class="container" onload="displayTable()">
+        <h2 class="mt-3">QUẢN LÝ PHÒNG</h2>
+       <button type="button" onclick="redirectToPage('home.html')" class="btn btn-link">Trang chủ</button>
+        <table id="myTable" class="table table-hover mt-4">
+        <thead>
+        <tr>
+            <th>Mã phòng</th>
+            <th>Ten phòng</th>
+            <th>Giá</th>
+            <th>Ngày bắt đầu</th>
+            <th>Ngày kết thúc</th>
+            <th>Xóa</th>
+            <th>Sửa</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div id="formContainer" class="mt-4"></div>
+    <script src="data.js" type="text/javascript"></script>
+    </body>
+    </html>
