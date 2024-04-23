@@ -71,6 +71,7 @@ import androidx.core.content.ContextCompat
 import com.example.dessertclicker.data.Datasource
 import com.example.dessertclicker.model.Dessert
 import com.example.dessertclicker.ui.theme.DessertClickerTheme
+import lando.com.example.myapplication.R
 
 // Tag for logging
 private const val TAG = "MainActivity"

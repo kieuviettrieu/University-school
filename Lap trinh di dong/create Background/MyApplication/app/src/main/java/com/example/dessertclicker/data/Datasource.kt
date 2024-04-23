@@ -16,8 +16,8 @@
 
 package com.example.dessertclicker.data
 
-import com.example.dessertclicker.R
 import com.example.dessertclicker.model.Dessert
+import lando.com.example.myapplication.R
 
 /**
  * [Datasource] generates a list of [Dessert]
